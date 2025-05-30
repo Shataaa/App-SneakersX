@@ -1,4 +1,4 @@
-import PageHeader from "../Components/PageHeader";
+import PageHeader from "../components/PageHeader";
 import React, { useState, useEffect } from "react";
 import { FaEdit, FaTrash, FaPlus } from "react-icons/fa"; // Import ikon Edit, Delete, dan Add
 
