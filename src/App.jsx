@@ -11,7 +11,7 @@ const Customers = React.lazy(() => import("./pages/Customer"));
 const ErrorPage = React.lazy(() => import("./pages/ErrorPage"));
 const Karyawan = React.lazy(() => import("./pages/Karyawan"));
 const Booking = React.lazy(() => import("./pages/Booking"));
-const Loading = React.lazy(() => import("./Components/Loading"));
+const Loading = React.lazy(() => import("./components/Loading"));
 const Login = React.lazy(() => import("./auth/Login"));
 const Register = React.lazy(() => import("./auth/Register"));
 const Forgot = React.lazy(() => import("./auth/Forgot"));
