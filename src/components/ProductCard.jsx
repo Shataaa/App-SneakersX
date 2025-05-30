@@ -1,5 +1,7 @@
 import React from "react";
 import { FaEdit, FaTrash } from "react-icons/fa";
+// Import ProductForm di atas file ini:
+import ProductForm from "./ProductForm";
 
 export default function ProductCard({
   product,
@@ -66,5 +68,3 @@ export default function ProductCard({
   );
 }
 
-// Import ProductForm di atas file ini:
-// import ProductForm from "./ProductForm";
